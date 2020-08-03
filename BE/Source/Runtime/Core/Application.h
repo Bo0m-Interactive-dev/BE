@@ -1,7 +1,6 @@
 #pragma once
 #include"Core.h"
 
-
 namespace BE {
 	class ENGINE_API Application
 	{
