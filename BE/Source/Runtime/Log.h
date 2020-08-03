@@ -2,7 +2,6 @@
 #include "Core/Core.h"
 #include "../../VENDOR/spdlog/include/spdlog/logger.h"
 #include"memory.h"
-
 namespace BE
 {
 	class ENGINE_API Log
