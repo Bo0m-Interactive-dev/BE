@@ -1,15 +1,24 @@
+#include "../../BE/Source/CoreMinimal.h"
 
-namespace BE
 
+class Example : public BE::Application
 {
-
-	__declspec(dllimport) void Print();
-
-
-}
+public:
+	Example()
+	{
 
 
-void main()
+	}
+
+	~Example()
+	{
+
+
+	}
+
+};
+//Extern for BE EntryPoint
+BE::Application* BE::CreateApplication()
 {
-	BE::Print();
+	return new Example();
 }
