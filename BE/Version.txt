@@ -14,7 +14,8 @@ We also Prepare everything for the Implementation of OpenGL and Vulcan.
 
 Added
 _______________________________________________________________________________
-
+- Entry Point Added for ExampleApp
+- Added Windows Only Support
 
 
 
