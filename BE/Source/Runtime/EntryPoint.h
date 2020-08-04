@@ -2,7 +2,7 @@
 
 #ifdef BE_PLATFORM_WINDOWS
 
-//Extern will be found in ExampleApp.cpp
+//Extern will be found in SandboxApp.cpp
 extern BE::Application* BE::CreateApplication();
 
 int main(int argc, char** argv)
