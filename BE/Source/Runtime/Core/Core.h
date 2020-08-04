@@ -2,12 +2,12 @@
 #pragma once
 
 #ifdef BE_PLATFORM_WINDOWS
-#ifdef BE_BUILD_DLL
-#define ENGINE_API __declspec(dllexport)
-#else
+	#ifdef BE_BUILD_DLL
+		#define ENGINE_API __declspec(dllexport)
+	#else
 #define ENGINE_API __declspec(dllimport)
-#endif
+	#endif
 #else 
-//#error Bo0m Engine Only Supports Windows
+	//#error Bo0m Engine Only Supports Windows
 #endif
 

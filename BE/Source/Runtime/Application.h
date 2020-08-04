@@ -11,5 +11,8 @@ namespace BE
 
 		void Run();
 	};
+	//To be Defined in Client
+	Application* CreateApplication();
+
 
 }

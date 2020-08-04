@@ -15,10 +15,8 @@ public:
 	}
 };
 
-int main()
+BE::Application* BE::CreateApplication()
 {
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-	delete sandbox;
+	return new Sandbox();
 
 }
