@@ -1,16 +1,24 @@
+#include "../BE/Source/CoreMinimal.h"
 
-
-namespace BE
+class Sandbox : public BE::Application
 {
-	__declspec(dllimport) void Print();
 
+public:
+	Sandbox()
+	{
 
-}
+	}
 
+	~Sandbox()
+	{
+
+	}
+};
 
 void main()
 {
-	BE::Print();
-
+	Sandbox* sandbox = new Sandbox();
+	sandbox->Run();
+	delete sandbox;
 
 }

@@ -8,6 +8,6 @@
 #define ENGINE_API __declspec(dllimport)
 #endif
 #else 
-#error Bo0m Engine Only Supports Windows
+//#error Bo0m Engine Only Supports Windows
 #endif
 

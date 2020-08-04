@@ -3,7 +3,7 @@
 //For use by Engine Applications. Not Engine Itself
 #include "stdio.h"
 #include "Runtime/Core/Core.h"
-#include "Runtime/Core/Application.h"
+#include "Runtime/Application.h"
 
 // --- Entry Point -----------
 #include "Runtime/EntryPoint.h"
